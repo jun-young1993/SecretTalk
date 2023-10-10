@@ -8,7 +8,7 @@ import 'package:secret_talk/state/home/home_bloc.dart';
 
 
 void main() async {
-  // await dotenv.load(fileName: '.env');
+  await dotenv.load(fileName: '.env');
 
   runApp(MultiRepositoryProvider(
     providers: [

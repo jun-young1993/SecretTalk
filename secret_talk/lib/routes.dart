@@ -4,6 +4,7 @@
 import 'package:flutter/material.dart';
 import 'package:secret_talk/core/fade_page_route.dart';
 import 'package:secret_talk/ui/screen/home/home.dart';
+import 'package:secret_talk/ui/screen/login/login.dart';
 
 enum Routes {
   home
@@ -30,7 +31,7 @@ class AppNavigator {
       case _Paths.home:
         return FadeRoute(page: const HomeScreen());
       default:
-        return FadeRoute(page: const HomeScreen());
+        return FadeRoute(page: const LoginScreen());
     }
   }
 
